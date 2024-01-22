@@ -1,0 +1,124 @@
+{
+    "pokemons" : [
+        {
+            "id" : 1 ,
+            "nom" : "Bulbasur",
+            "tipus" : ["planta", "veneno"],
+            "pes" : {
+                "unitat" : "kg",
+                "valor" : 6.9
+            },
+            "altura": {
+                "unitat" : "m",
+                "valor" : 0.7
+            },
+            "estadístiques": {
+                "velocitat" : 3,
+                "fortalesa" : 3,
+                "precisió" : 4,
+                "resistencia" : 4
+            },
+            "moviments" : [
+               {
+                "nom" : "Placaje",
+                "descripció" : "Placaje causa daño y no tiene ningún efecto secundario. Este movimiento tiene una potencia de 35 y una precisión del 95%.",
+                "potència" : 40,
+                "contacte" : true
+               } ,
+               {
+                "nom" : "Gruñido",
+                "descripció" : "Gruñido es un movimiento de sonido que baja un nivel el ataque del objetivo. En combates dobles y triples afecta a los oponentes adyacentes. No afecta a Pokémon con las habilidades corte fuerte, cuerpo puro, humo blanco, guardia metálica o insonorizar.",
+                "potència" : null,
+                "contacte" : false
+               },
+               {
+                "nom" : "Látigo cepa",
+                "descripció" : "Látigo cepa causa daño y no tiene ningún efecto secundario. El movimiento tiene una potencia de 35 y 10 PP.",
+                "potència" : 45,
+                "contacte" : true
+               },{
+                "nom" : "Desarrollo",
+                "descripció" : "Desarrollo aumenta en un nivel el especial del usuario. El movimiento tiene 40 PP.",
+                "potència" : null,
+                "contacte" : false
+               }
+            ],
+               "imatge" : "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/400px-Bulbasaur.png",
+               "evolucions" : [
+                {   
+                    "id" : 2,
+                    "nom": "Ivysaur",
+                    "nivell": 16
+                   
+                },
+                {   
+                    "id" : 3,
+                    "nom": "Venusaur",
+                    "nivell": 32
+                   
+                }
+               ]
+
+        },
+        {
+            "id" : 4 ,
+            "nom" : "Charmander",
+            "tipus" : ["fuego"],
+            "pes" : {
+                "unitat" : "kg",
+                "valor" : 8.5
+            },
+            "altura": {
+                "unitat" : "m",
+                "valor" : 0.6
+            },
+            "estadístiques": {
+                "velocitat" : 3,
+                "fortalesa" : 5,
+                "precisió" : 4,
+                "resistencia" : 3
+            },
+            "moviments" : [
+               {
+                "nom" : "Arañazo",
+                "descripció" : " Arañazo causa daño y no tiene ningún efecto secundario.",
+                "potència" : 40,
+                "contacte" : true
+               } ,
+               {
+                "nom" : "Gruñido",
+                "descripció" : "Gruñido es un movimiento de sonido que baja un nivel el ataque del objetivo. En combates dobles y triples afecta a los oponentes adyacentes. No afecta a Pokémon con las habilidades corte fuerte, cuerpo puro, humo blanco, guardia metálica o insonorizar.",
+                "potència" : null,
+                "contacte" : false
+               },
+               {
+                "nom" : "Ascuas",
+                "descripció" : "Ascuas causa daño y tiene una probabilidad del 10% de quemar al objetivo.",
+                "potència" : 40,
+                "contacte" : false
+               },{
+                "nom" : "Pantalla de humo",
+                "descripció" : "Pantalla de humo reduce en un nivel la precisión del objetivo.",
+                "potència" : null,
+                "contacte" : false
+               }
+            ],
+               "imatge" : "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/56/latest/20200307023245/Charmander.png/400px-Charmander.png",
+               "evolucions" : [
+                {   
+                    "id" : 5,
+                    "nom": "Charmeleon",
+                    "nivell": 16
+                   
+                },
+                {   
+                    "id" : 6,
+                    "nom": "Charizard",
+                    "nivell": 36
+                   
+                }
+               ]
+
+        }
+    ]
+}
